@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1" />
+         <title>BMI Result</title>
+         <link rel="stylesheet" href="/style.css" />
+    </head>
+<body> 
+<div class="card">
+    <h1>Your result</h1>
+
+    <div id="errorBox" class="msg msg-error hidden">
+      Weight and height must be positive numbers.
+    </div>
+
+    <div id="resultBox" class="result hidden">
+      <div class="bmi">BMI: <strong id="bmiValue"></strong></div>
+      <div class="category">Category: <strong id="bmiLabel"></strong></div>
+    </div>
+
+    <a class="link" href="/">Calculate again</a>
+  </div>
+
+  <script src="/result.js"></script>
+</body>
+</html>
