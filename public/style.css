@@ -45,10 +45,10 @@ button {
   border: 1px solid #e0e0e8;
 }
 
-.result.normal { background: #eaffea; }
-.result.overweight { background: #fff7d6; }
-.result.obese { background: #ffe2e2; }
-.result.underweight { background: #e7f1ff; }
+.result.normal { background: #98e67f; }
+.result.overweight { background: #e37e44; }
+.result.obese { background: #de2b2b; }
+.result.underweight { background: #2876e3; }
 
 .hidden { display: none; }
 
